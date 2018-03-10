@@ -4,6 +4,7 @@
   "description": "A template for libs",
   "main": "index.js",
   "scripts": {
+    "depcheck": "depcheck",
     "flow": "flow",
     "flow-typed": "flow-typed",
     "lint": "eslint .",
