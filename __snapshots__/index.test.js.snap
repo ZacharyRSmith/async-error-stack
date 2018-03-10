@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addCleanStack() 1`] = `
+"STACK FILTERED BY \`!line.includes('node_modules/async/')\`:
+Error: BOOM!
+    at /Users/zacharyryansmith/Code/OSS/async-error-stack/index.test.js:36:18
+    at Timeout.callback [as _onTimeout] (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/jsdom/lib/jsdom/browser/Window.js:633:19)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+---------------------------------------------
+    at two (/Users/zacharyryansmith/Code/OSS/async-error-stack/index.test.js:35:7)
+    at /Users/zacharyryansmith/Code/OSS/async-error-stack/index.test.js:31:9
+    at Timeout.callback [as _onTimeout] (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/jsdom/lib/jsdom/browser/Window.js:633:19)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+---------------------------------------------
+    at one (/Users/zacharyryansmith/Code/OSS/async-error-stack/index.test.js:30:7)
+    at Object.<anonymous>.done (/Users/zacharyryansmith/Code/OSS/async-error-stack/index.test.js:28:9)
+    at resolve (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/jest-jasmine2/build/queue_runner.js:52:12)
+    at new Promise (<anonymous>)
+    at mapper (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/jest-jasmine2/build/queue_runner.js:39:19)
+    at promise.then (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/jest-jasmine2/build/queue_runner.js:73:82)
+    at <anonymous>
+---------------------------------------------
+FULL STACK:
+---------------------------------------------
+Error: BOOM!
+    at /Users/zacharyryansmith/Code/OSS/async-error-stack/index.test.js:36:18
+    at Timeout.callback [as _onTimeout] (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/jsdom/lib/jsdom/browser/Window.js:633:19)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+---------------------------------------------
+    at two (/Users/zacharyryansmith/Code/OSS/async-error-stack/index.test.js:35:7)
+    at /Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:3866:24
+    at replenish (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:998:17)
+    at iterateeCallback (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:983:17)
+    at /Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:958:16
+    at /Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:3871:13
+    at /Users/zacharyryansmith/Code/OSS/async-error-stack/index.test.js:31:9
+    at Timeout.callback [as _onTimeout] (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/jsdom/lib/jsdom/browser/Window.js:633:19)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+---------------------------------------------
+    at one (/Users/zacharyryansmith/Code/OSS/async-error-stack/index.test.js:30:7)
+    at /Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:3866:24
+    at replenish (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:998:17)
+    at /Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:1002:9
+    at eachOfLimit (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:1027:24)
+    at /Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:1032:16
+    at _parallel (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:3865:5)
+    at Object.series (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/async/dist/async.js:4721:5)
+    at Object.<anonymous>.done (/Users/zacharyryansmith/Code/OSS/async-error-stack/index.test.js:28:9)
+    at resolve (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/jest-jasmine2/build/queue_runner.js:52:12)
+    at new Promise (<anonymous>)
+    at mapper (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/jest-jasmine2/build/queue_runner.js:39:19)
+    at promise.then (/Users/zacharyryansmith/Code/OSS/async-error-stack/node_modules/jest-jasmine2/build/queue_runner.js:73:82)
+    at <anonymous>"
+`;

@@ -1,7 +1,7 @@
 {
-  "name": "template-lib",
+  "name": "async-error-stack",
   "version": "0.1.0",
-  "description": "A template for libs",
+  "description": "For better error stacks in async code.",
   "main": "index.js",
   "scripts": {
     "depcheck": "depcheck",
@@ -18,15 +18,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZacharyRSmith/template-lib.git"
+    "url": "git+https://github.com/ZacharyRSmith/async-error-stack.git"
   },
-  "keywords": [],
+  "keywords": [
+    "async",
+    "debugging",
+    "error",
+    "logging",
+    "stack",
+    "trace"
+  ],
   "author": "@ZacharyRSmith <ZacharySmith4989@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ZacharyRSmith/template-lib/issues"
+    "url": "https://github.com/ZacharyRSmith/async-error-stack/issues"
   },
-  "homepage": "https://github.com/ZacharyRSmith/template-lib#readme",
+  "homepage": "https://github.com/ZacharyRSmith/async-error-stack#readme",
   "devDependencies": {
     "depcheck": "^0.6.9",
     "eslint": "^4.18.2",
@@ -34,5 +41,8 @@
     "flow-bin": "^0.67.0",
     "flow-typed": "^2.3.0",
     "jest": "^22.0.0"
+  },
+  "dependencies": {
+    "longjohn": "^0.2.12"
   }
 }
