@@ -1,6 +1,6 @@
 {
   "name": "async-error-stack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "For better error stacks in async code.",
   "main": "index.js",
   "scripts": {

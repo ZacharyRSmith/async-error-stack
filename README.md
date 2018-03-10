@@ -85,7 +85,9 @@ Error: BOOM!
 
 # Production Use
 
-Not recommended for use in production: this uses [longjohn](https://www.npmjs.com/package/longjohn), which states:
+Not recommended for use in production, so you can disable it by setting process.env.ASYNC_ERROR_STACK=0 or passing in @disable.
+
+This uses [longjohn](https://www.npmjs.com/package/longjohn), which states:
 
 "Longjohn collects a large amount of data in order to provide useful stack traces. While it is very helpful in development and testing environments, it is not recommended to use longjohn in production. The data collection puts a lot of strain on V8's garbage collector and can greatly slow down heavily-loaded applications."
 
